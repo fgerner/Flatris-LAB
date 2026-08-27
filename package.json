@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint '**/*.js'",
     "format": "prettier --write '**/*.{js,css}' '!**/{flow-typed,.next}/**'",
-    "test": "flow && yarn lint && jest --maxWorkers=4",
+    "test": "flow && npm run lint && jest --maxWorkers=4",
     "test:watch": "jest --watch",
     "cosmos": "cosmos --config web/cosmos.config.json",
     "cosmos:export": "cosmos-export --config web/cosmos.config.json",
@@ -24,7 +24,7 @@
     "body-parser": "^1.19.0",
     "classnames": "^2.2.6",
     "clipboard": "^2.0.4",
-    "cookie": "^0.4.0",
+    "cookie": "^0.7.2",
     "cookie-parser": "^1.4.4",
     "crc-32": "^1.2.0",
     "express": "^4.17.1",

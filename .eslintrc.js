@@ -29,6 +29,7 @@ module.exports = {
       files: [
         '.eslintrc.js',
         'babel.config.js',
+        'ecosystem.config.js',
         'jest.config.js',
         'jest.framework-setup.js',
         'web/next.config.js',
